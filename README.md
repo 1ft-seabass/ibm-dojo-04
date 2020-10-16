@@ -14,4 +14,4 @@ IBM Champion である[柿本さん](https://twitter.com/Kakimoty_Field)の書�
 
 ## 当日の資料
 
-[こちら](00_intro.md) です。
+（更新中）
