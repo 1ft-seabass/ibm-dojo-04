@@ -1,6 +1,6 @@
-# HTTP API からデータを取得してみよう
+# 猫画像 API からデータを取得してみよう
 
-さてこの章では HTTP API からデータを取得してみようということで進めていきます。
+この章では 猫画像 API からデータを取得してみようということで進めていきます。
 
 ![image](https://i.gyazo.com/364cbe715eccee492a9480e772535318.png)
 
@@ -30,10 +30,7 @@ API につなげるためには HTTP という通信のルール（プロトコ�
 * データを受け取るとき（データ応答）
     * HTTPヘッダー
 
-さらにデータを受け取ったJSONデータという形で受け取ります。
-
-* JSON理解
-    * 受け取ったAPIに合わせて、JSONデータの中身を理解して、必要なデータを取り出しします。
+さらにデータを受け取ったJSONデータという形で受け取ります。受け取ったAPIに合わせて、JSONデータの中身を理解して、必要なデータを取り出しします。
 
 ## フリーのAPIのリストコレクション public-apis
 
@@ -54,7 +51,7 @@ API につなげるためには HTTP という通信のルール（プロトコ�
 
 今回は、私が別の機会に書いた [すぐにAPIを体験！public\-apis 100以上のJavaScript axiosサンプル集](https://protoout.studio/posts/public-apis-api-get) を使っていきます。
 
-## http request する仕組みを作ってみる
+## Node-RED で http request する仕組みを作ってみる
 
 ![image](https://i.gyazo.com/baedc63f4a27f63eb33277aeb49481eb.png)
 
@@ -148,4 +145,8 @@ http request ノードの設定の `出力形式` をUTF文字列から `JSONオ
 
 このように、今回はシンプルな構造ですが、JSONの中身がツリー構造でのぞくことがデータの内容が把握しやすくなります。
 
+## この章のまとめ
+
 ## 次の章
+
+[猫画像 API のデータを表示してみよう](03_api_visualize.md)

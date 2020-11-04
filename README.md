@@ -14,4 +14,6 @@
 
 それでは、はじめていきましょう！
 
-* [動かしてみよう](01_intro.md)
+* [Node-REDを動かしてみよう](01_intro.md)
+* [猫画像 API からデータを取得してみよう](02_api_request.md)
+* [猫画像 API のデータを表示してみよう](03_api_visualize.md)
