@@ -2,7 +2,7 @@
 
 ## Node-RED とは
 
-Node-REDはNode.jsで動く仕組みです。Node-RED はサーバーとフロントエンドの両方を作れる仕組みです。GUI（ビジュアルで見えるUI）によって、APIを取得する仕組みであったり、dashboardのように表示も作れます。
+Node-RED は Node.js で動く仕組みです。Node-RED はサーバーとフロントエンドの両方を作れる仕組みです。GUI（ビジュアルで見えるUI）によって、APIを取得する仕組みであったり、dashboard のように表示も作れます。
 
 [フロー検索](https://flows.nodered.org/)で他の人の作った仕組みやノード再利用でき、プロトタイプするうえでも小さく素早く進める側面を備えています。
 
@@ -61,15 +61,15 @@ Node-REDはNode.jsで動く仕組みです。Node-RED はサーバーとフロ�
 
 ![image](https://i.gyazo.com/69d9424ea7db4779794c1d39e1d0a44f.png)
 
-injectノードをワークスペースにドラックアンドドロップします。
+inject ノードをワークスペースにドラックアンドドロップします。
 
 ![image](https://i.gyazo.com/4ab5cd15ee540f8b2181cafc29cf9377.png)
 
-injectノードの横にdebugノードをドラックアンドドロップします。
+inject ノードの横にdebugノードをドラックアンドドロップします。
 
 ![image](https://i.gyazo.com/b8eb34fb3296018ddae614e01bd47a50.png)
 
-injectノードとdebugノードをつなぎます。つなぐものはワイヤーといいます。
+inject ノードと debug ノードをつなぎます。つなぐものはワイヤーといいます。
 
 ![image](https://i.gyazo.com/58de57346d51b7620c32562f9c8690bf.png)
 
@@ -116,6 +116,10 @@ injectノードをダブルクリックしてデータを変更しましょう�
 動かして、inject ノードから送られるデータが 50 の数値になっているか確認します。
 
 ## この章のまとめ
+
+![image](https://i.gyazo.com/9d560ea43e326e7f26b905d1771e60a2.png)
+
+inject ノードと debug ノードのフローづくりを通じて Node-RED のファーストステップをお伝えしました。
 
 ## 次の章へ
 

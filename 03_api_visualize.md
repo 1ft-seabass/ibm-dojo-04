@@ -206,6 +206,11 @@ inject ノードをクリックして猫画像が node-red-contrib-image-output 
 
 ## この章のまとめ
 
+![image](https://i.gyazo.com/9d560ea43e326e7f26b905d1771e60a2.png)
+
+APIから取得したデータから猫画像データを取り出して Node-RED のワークスペースに表示することをお伝えしました。
+
 ## 次の章
 
+* [ほかの動物画像APIをつないで画像表示してみよう](04_animal_api.md)
 

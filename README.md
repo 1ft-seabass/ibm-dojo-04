@@ -17,3 +17,5 @@
 * [Node-REDを動かしてみよう](01_intro.md)
 * [猫画像 API からデータを取得してみよう](02_api_request.md)
 * [猫画像 API のデータを表示してみよう](03_api_visualize.md)
+* [ほかの動物画像APIをつないで画像表示してみよう](04_animal_api.md)
+* [エクストラ：public-apisで色々つないでみる](05_api_extra.md)

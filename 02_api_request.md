@@ -147,6 +147,10 @@ http request ノードの設定の `出力形式` をUTF文字列から `JSONオ
 
 ## この章のまとめ
 
+![image](https://i.gyazo.com/9d560ea43e326e7f26b905d1771e60a2.png)
+
+猫画像 API を元に http request ノードを使って外部からデータを取得する流れをお伝えしました。
+
 ## 次の章
 
 [猫画像 API のデータを表示してみよう](03_api_visualize.md)
