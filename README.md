@@ -1,5 +1,27 @@
 # ibm-dojo-04
 
+![](https://connpass-tokyo.s3.amazonaws.com/thumbs/29/72/297295068f1a9941f246bba44d66e070.png)
+
+[Champ Dojo \#4 Node\-RED で猫画像 API など色々な API につないでみよう \- connpass](https://ibm-developer.connpass.com/event/190248/)
+
+## 自己紹介
+
+<img src="https://i.gyazo.com/af8b4618c0a073a8c8b054de06f667ae.jpg" alt="Image from Gyazo" width="500"/>
+
+田中正吾
+
+IBM Champion
+
+ワンフットシーバス / フリーランスエンジニア
+
+フロントエンジニアのスキルを軸に、とりあえず触ってみるプロトタイプの姿勢で、既存の技術やVR・IoTのような新しい技術を混ぜてみて新しい可能性を日々探っています。ウォンバットが好き。
+
+Node-RED UG 運営。[Node\-RED Con Tokyo 2020を10/10に開催しました](https://www.1ft-seabass.jp/memo/2020/10/25/node-red-con-tokyo-2020/)。
+
+* [info](https://www.1ft-seabass.jp/)
+* [blog](https://www.1ft-seabass.jp/memo/)
+* [twitter](https://twitter.com/1ft_seabass) (@1ft_seabass)
+
 ## 本イベントの進行
 
 ![image](https://i.gyazo.com/9eb9e0607cfbcb8e1b6496501b90459a.png)
