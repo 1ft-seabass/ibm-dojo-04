@@ -6,9 +6,11 @@
 
 ![image](https://i.gyazo.com/09bc50e2b861135f3ab3c829b906f79d.png)
 
- [すぐにAPIを体験！public\-apis 100以上のJavaScript axiosサンプル集](https://protoout.studio/posts/public-apis-api-get) をベースにめぐってみます。
+ [すぐにAPIを体験！public\-apis 100以上のJavaScript axiosサンプル集](https://protoout.studio/posts/public-apis-api-get) をベースに Node-RED でめぐってみます。
 
-ピックアップ例
+### ピックアップ例
+
+![image](https://i.gyazo.com/2b27b3a6d0f8ff9afd768eae86f78d9d.png)
 
 * Czech Namedays Calendar
   * チェコのカレンダー
