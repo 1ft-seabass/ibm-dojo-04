@@ -131,7 +131,11 @@ HTTP リクエストの仕様として読み解くと以下のようになりま
 
 ## 返答データを文字列からJSONに変更する
 
+![image](https://i.gyazo.com/e0354e1cefe80b1ebf9bc905cc081d2c.png)
+
 現状では取得したデータは文字列です。今後扱いやすいようにJSONに変更しましょう。
+
+文字列のままだと頑張って読んで探して取り出す必要がありますが、JSONデータで受け取れると入れ子構造で目的のデータが取り出しやすくなります。
 
 ![image](https://i.gyazo.com/7ad33f4cec6e1be03622557bd9af245e.png)
 
@@ -144,6 +148,18 @@ http request ノードの設定の `出力形式` をUTF文字列から `JSONオ
 [![Image from Gyazo](https://i.gyazo.com/419a64aecb7753fa7cfe646155910dab.gif)](https://gyazo.com/419a64aecb7753fa7cfe646155910dab)
 
 このように、今回はシンプルな構造ですが、JSONの中身がツリー構造でのぞくことがデータの内容が把握しやすくなります。
+
+![image](https://i.gyazo.com/d51b5faaace99acf648a267bb27b91c9.png)
+
+ためしに、fileにある猫画像URLをコピーして
+
+![image](https://i.gyazo.com/3b27b584458761dd13dd38b7db6ada17.png)
+
+ブラウザのアドレスバーにペーストしてアクセスしてみましょう。
+
+![image](https://i.gyazo.com/511188999f8b0f418dfbe413ece02d2c.jpg)
+
+無事、猫画像が見れていますね！次の章で Node-RED の中で表示してみましょう！
 
 ## この章のまとめ
 

@@ -2,9 +2,23 @@
 
 ## Node-RED とは
 
+![image](https://i.gyazo.com/07c703e8af39a7a5aaf5e660f663b576.png)
+
+[Node\-RED日本ユーザ会](https://nodered.jp/)
+
 Node-RED は Node.js で動く仕組みです。Node-RED はサーバーとフロントエンドの両方を作れる仕組みです。GUI（ビジュアルで見えるUI）によって、APIを取得する仕組みであったり、dashboard のように表示も作れます。
 
 [フロー検索](https://flows.nodered.org/)で他の人の作った仕組みやノード再利用でき、プロトタイプするうえでも小さく素早く進める側面を備えています。
+
+## IBM Cloud での Node-RED の準備
+
+![image](https://i.gyazo.com/9fb96662265fab7324e6326edf507f07.png)
+
+IBM Cloud でセットアップされた Node-RED ではじめていきます。
+
+![image](https://i.gyazo.com/4952e648ed52462f44f4577c555528a5.png)
+
+IBM Champion である [柿本さん](https://twitter.com/Kakimoty_Field)の書かれた[IBM Cloud で Node\-RED セットアップ \(2020年９月\) \- Qiita](https://qiita.com/Kakimoty_Field/items/ed30531445cafcb30a63) で Node-RED を使える環境をの作り方が参考になります。
 
 ## 動かしてみよう
 
@@ -31,6 +45,10 @@ Node-RED は Node.js で動く仕組みです。Node-RED はサーバーとフ�
 ![image](https://i.gyazo.com/b2e38a11e61da1ad55ff387493b71891.png)
 
 メッセージはJSONデータで構成され、`msg` という一番上のオブジェクトにぶら下がっている `payload` というオブジェクトの中で、各ノードで処理された内容がバケツリレーのようにやり取りされていきます。
+
+![image](https://i.gyazo.com/7a554e64647323ace99a930de52bfe67.png)
+
+こんな感じです。
 
 ![image](https://i.gyazo.com/20007903edfd97e9aabddeedd5d6d8d5.png)
 
